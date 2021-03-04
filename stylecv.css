@@ -1,0 +1,138 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	height: auto;
+	width: 100%;
+	background: url("img/komputer.png");
+	background-position: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.profil{
+	margin: 0 auto;
+	height: 130px;
+	width: 130px;
+	background: url("https://despro.isi.ac.id/wp-content/uploads/2020/06/profil.jpg");
+	background-position: center;
+	background-size: cover;
+	border-radius: 360px;
+}
+.nama{
+	font-weight: 100;
+	color: white;
+	font-family:'Courier New', Courier, monospace;
+	font-size: 30px;
+	margin-top: 20px;
+	text-align: center;
+}
+.content{
+	height: auto;
+	padding: 5px 50px;
+}
+.title{
+	padding-top: 20px;
+	padding-bottom: 5px;
+	font-size: 5em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: black;
+	opacity: 0.7;
+	clear: left;
+}
+.title-foto{
+	padding: 10px 50px;
+}
+.htmlfoto{
+	background: url('https://repository-images.githubusercontent.com/134285701/635de980-586d-11ea-9220-1a3211239c30');
+	background-position: center;
+	background-size: cover;
+	width: 350px;
+	height: 250px;
+	border-radius: 20px;
+	animation: kotak 2s;
+}
+.cssfoto{
+	background: url('https://community-cdn-digitalocean-com.global.ssl.fastly.net/variants/s9ngw3u4xq1Du3AwqPfAwmTm/035575f2985fe451d86e717d73691e533a1a00545d7230900ed786341dc3c882');
+	background-position: center;
+	background-size: cover;
+	width: 350px;
+	height: 250px;
+	border-radius: 20px;
+	animation: kotak 2s;
+}
+.phpfoto{
+	background: url('https://smktunaspelita.sch.id/wp-content/uploads/2019/05/SMKTP-PHP.png');
+	background-position: center;
+	background-size: cover;
+	width: 350px;
+	height: 250px;
+	border-radius: 20px;
+	animation: kotak 2s;
+}
+.group{
+	padding-bottom: 40px;
+	float: left;
+	padding-right: 30px;
+}
+.sekolahfoto{
+	width: 650px;
+	height: 350px;
+	background: url('https://1.bp.blogspot.com/-zAxj699Wqso/WHIVd4d6zkI/AAAAAAAABaU/RQvh6epoMFc4Sec-41suV_tqk4S2InXygCLcB/s1600/smk-wikrama-bogor.jpg');
+	background-size: cover;
+	background-position: center;
+	border-radius: 20px;
+	animation: kotak1 2s;
+}
+.wikrama{
+	font-size: 2em;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: bold;
+	animation: 
+}
+p{
+	font-size: 20px;
+}
+.hr{
+	clear: left;
+	animation: garis 3s;
+}
+.fotoB{
+width: 140px;
+height: 120px;
+border-radius: 70px;
+}
+.footer{
+background-color: #2c3e50;
+width: 100%;
+padding-top: 10px;
+padding-bottom: 10px;
+text-align: center;
+color: white;
+font-family: 'Courier New', Courier, monospace;
+}
+@keyframes kotak{
+	from{
+		width: 0px;
+	}
+	to{
+		width: 350px;
+	}
+}
+@keyframes garis{
+	from{
+		width: 0px;
+	}
+	to{
+		width: 1250px;
+	}
+}
+@keyframes kotak1{
+	from{
+		width: 0px;
+	}
+	to{
+		width: 650px;
+	}
+}
